@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "gradle",
+            "name": "desktop-app",
+            "tasks": ["run"],
+        },
+        {
+            "type": "android-app",
+            "name": "android-app",
+            "allowParallelRun": true,
+            "module": "Business Card.composeApp.main",
+            
+        },
+        {
+            "type": "browser",
+            "name": "Browser configuration",
+            "url": "",
+        },
+        
+        
+        
+    ]
+}
